@@ -587,6 +587,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 386525800899081907}
   range: 100
+  weaponDamage: 10
+  muzzleFlash: {fileID: 767045715130769134}
+  hitFx: {fileID: 3436418885465373186, guid: a67860d949878a94f94225a75e6447df, type: 3}
 --- !u!1 &1489236307238390810
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,10 +628,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4950535228424891569}
     m_Modifications:
-    - target: {fileID: 1979706888108350, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
-      propertyPath: m_Name
-      value: NewGateling
-      objectReference: {fileID: 0}
     - target: {fileID: 4514986444668122, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.57689977
@@ -643,19 +642,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4514986444668122, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.013660071
+      value: -0.013652995
       objectReference: {fileID: 0}
     - target: {fileID: 4514986444668122, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.037535004
+      value: -0.02354743
       objectReference: {fileID: 0}
     - target: {fileID: 4514986444668122, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0002290094
+      value: 0.00042019135
       objectReference: {fileID: 0}
     - target: {fileID: 4514986444668122, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9992019
+      value: 0.9996295
       objectReference: {fileID: 0}
     - target: {fileID: 4514986444668122, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
       propertyPath: m_RootOrder
@@ -667,7 +666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4514986444668122, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -4.3040004
+      value: -2.7
       objectReference: {fileID: 0}
     - target: {fileID: 4514986444668122, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -685,6 +684,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.71029
       objectReference: {fileID: 0}
+    - target: {fileID: 1979706888108350, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
+      propertyPath: m_Name
+      value: NewGateling
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85161a9f7c87bad4b90e6efb365c5669, type: 3}
 --- !u!1 &604466486583136064 stripped
@@ -696,6 +699,12 @@ GameObject:
 --- !u!4 &609250123885218468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4514986444668122, guid: 85161a9f7c87bad4b90e6efb365c5669,
+    type: 3}
+  m_PrefabInstance: {fileID: 604739750308984446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &767045715130769134 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198562569527715984, guid: 85161a9f7c87bad4b90e6efb365c5669,
     type: 3}
   m_PrefabInstance: {fileID: 604739750308984446}
   m_PrefabAsset: {fileID: 0}
